@@ -1,0 +1,191 @@
+body {
+  font-family: "Prompt", sans-serif;
+  margin: 0;
+  background-color: #fff6f9;
+  color: #444;
+}
+
+/* 🔸 Navbar */
+.navbar {
+  background: linear-gradient(90deg, #ffb6c1, #ffc0cb);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.3s;
+}
+
+.nav-links a:hover {
+  opacity: 0.8;
+}
+
+.toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+/* 🔹 Container */
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  background: white;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 4px 20px rgba(255, 192, 203, 0.3);
+}
+
+/* 🔸 Section */
+.section {
+  margin-bottom: 30px;
+}
+
+.section h2 {
+  color: #e85b81;
+  border-bottom: 2px solid #f5a6b8;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* 🧍‍♀️ Header */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.avatar-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #ffc0cb;
+  object-fit: cover;
+}
+
+.pill {
+  display: inline-block;
+  background: #ffe6eb;
+  color: #e85b81;
+  border-radius: 20px;
+  padding: 5px 12px;
+  margin: 5px 5px 0 0;
+  font-size: 14px;
+}
+
+/* 🔸 Skill List */
+.skill-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skill-list li {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #555;
+}
+
+.skill-list li strong {
+  color: #e85b81;
+}
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
+  .toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    background: #ffc0cb;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.edu-item {
+  background: #fff0f4;
+  border-left: 5px solid #f5a6b8;
+  padding: 12px 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 6px rgba(255, 192, 203, 0.2);
+}
+
+.edu-item strong {
+  color: #e85b81;
+  font-size: 18px;
+}
+
+/* ส่วน Contact */
+#contact a {
+  color: #e85b81;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* ส่วน Employment */
+.job {
+  background: #fff0f4;
+  border-left: 5px solid #f5a6b8;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(255, 192, 203, 0.25);
+}
+
+.job strong {
+  color: #e85b81;
+  font-size: 18px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.job ul {
+  margin: 0;
+  padding-left: 20px;
+  color: #444;
+}
+
+.job li {
+  margin-bottom: 6px;
+  line-height: 1.5;
+}
+

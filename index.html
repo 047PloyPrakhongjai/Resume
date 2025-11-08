@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resume — Ms. Ploy Prakhongjai</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- 🔸 Navbar -->
+  <nav class="navbar">
+    <div class="logo">My Resume — Ms. Ploy</div>
+    <button class="toggle" onclick="toggleMenu()">☰</button>
+    <ul id="nav-menu" class="nav-links">
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- 🔹 Resume Container -->
+  <div class="container">
+
+    <!-- 🧍‍♀️ About Me -->
+    <section id="about" class="section">
+      <div class="header">
+        <img src="moo-deng-หมูเด้ง.png" alt="รูปโปรไฟล์" class="avatar-img">
+        <div class="name">
+          <h1>Ms. Ploy Prakhongjai</h1>
+          <em><p>ชื่อจริง:พลอย ประคองใจ<br>
+            ชื่อเล่น:พลอย<br> 
+            ศึกษาอยู่ที่:คณะวิศวกรรมศาสตร์ สาขาDIT<br>
+            สถาบันการจัดการปัญญาภิวัฒน์
+            (<a href="https://pim.ac.th" target="_blank">PIM</a>)
+            </p></em>
+          
+          <div class="contact">
+            <span class="pill">📍 Nonthaburi, Thailand</span>
+            <span class="pill">✉️ ploy@gmail.com</span>
+            <span class="pill">🔗 portfolio.example.com</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <div id="About Me" class="section">
+          <h2>About Me</h2>
+          <div class="About Me">สวัสดีค่ะ ชื่อพลอยนะคะ กำลังศึกษาอยู่ที่สถาบันการจัดการปัญญาภิวัฒน์ค่ะ ถนัดงานด้านการออกแบบ และสนใจเกี่ยวกับงาน3D และUX/UIค่ะ
+          </div>
+        </div>
+
+    <!-- 🎓 Education -->
+    <section id="education" class="section">
+      <h2>Education</h2>
+      <div class="edu-item">
+        <strong>สถาบันการจัดการปัญญาภิวัฒน์ (PIM)</strong>
+        <p>คณะวิศวกรรมศาสตร์ — สาขาเทคโนโลยีดิจิทัลและสารสนเทศ</p>
+        <p><em>2024 — ปัจจุบัน</em></p>
+      </div>
+      <div class="edu-item">
+        <strong>มัธยมศึกษา</strong>
+        <p>โรงเรียนโพธิสัมพันธ์พิทยาคาร<br>แผนการเรียน วิทย์-คอมพิวเตอร์</p>
+        <p><em>2019 — 2024</em></p>
+      </div>
+    </section>
+    
+   <!-- 💼 Employment -->
+<section id="employment" class="section">
+  <h2>Employment</h2>
+
+  <div class="job">
+    <strong>7-Eleven – Internship (2025)</strong>
+    <ul>
+      <li>ให้ความช่วยเหลือลูกค้าในการเลือกซื้อสินค้าและให้ข้อมูลเกี่ยวกับผลิตภัณฑ์</li>
+      <li>ดูแลการทำรายการชำระเงินสดและตรวจสอบความถูกต้องของรายงานยอดขายประจำวัน</li>
+      <li>สนับสนุนการดำเนินงานภายในร้าน เช่น การจัดเรียงและเติมสินค้า</li>
+      <li>พัฒนาทักษะการทำงานเป็นทีม การบริการลูกค้า และการบริหารเวลา</li>
+    </ul>
+  </div>
+</section>
+
+
+    <!-- 💻 Skills -->
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <ul class="skill-list">
+        <li><strong>HTML:</strong> Good</li>
+        <li><strong>CSS:</strong> Good</li>
+        <li><strong>Drawing:</strong> Intermediate</li>
+        <li><strong>Design:</strong> Intermediate</li>
+      </ul>
+    </section>
+
+    <!-- 💌 Contact -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>📧 Email: <a href="mailto:ploy@gmail.com">ploy@gmail.com</a></p>
+      <p>📱 Phone: 08x-xxx-xxxx</p>
+      <p>💼 Portfolio: <a href="https://portfolio.example.com" target="_blank">portfolio.example.com</a></p>
+      <p>📍 ที่อยู่: นนทบุรี, ประเทศไทย</p>
+    </section>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById("nav-menu");
+      menu.classList.toggle("show");
+    }
+  </script>
+
+</body>
+</html>
